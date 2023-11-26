@@ -1,0 +1,15 @@
+{
+  "name": "taskmng",
+  "main": "./lib/taskmng",
+  "version": "0.0.1",
+  "description": "A task management plugin",
+  "keywords": ["inkdrop"],
+  "repository": "https://github.com/kamesuke42/inkdrop-taskmng",
+  "homepage": "https://github.com/kamesuke42/inkdrop-taskmng",
+  "author": "kamesuke42",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": "^5.3.1"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Toggle taskmng",
+        "command": "taskmng:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "taskmng",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "taskmng:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
