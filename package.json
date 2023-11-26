@@ -3,7 +3,12 @@
   "main": "./lib/taskmng",
   "version": "0.0.1",
   "description": "A task management plugin",
-  "keywords": ["inkdrop"],
+  "keywords": [
+    "inkdrop"
+  ],
+  "scripts": {
+    "format": "npx @biomejs/biome format . --write"
+  },
   "repository": "https://github.com/kamesuke42/inkdrop-taskmng",
   "homepage": "https://github.com/kamesuke42/inkdrop-taskmng",
   "author": "kamesuke42",
@@ -11,5 +16,7 @@
   "engines": {
     "inkdrop": "^5.3.1"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "@biomejs/biome": "1.3.3"
+  }
 }
